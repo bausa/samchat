@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UIEncryptedImagePickerController.h"
 
 @interface ImageEncryption : NSObject
+-(UIImage *)decryptImageDataString:(NSData *)string;
 
 @end
